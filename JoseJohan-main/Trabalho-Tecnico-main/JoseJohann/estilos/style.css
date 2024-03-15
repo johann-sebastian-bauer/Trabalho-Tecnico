@@ -1,0 +1,97 @@
+body{
+    padding: 10px;
+    font-family: sans-serif;
+}
+.meuBotao{
+    border-radius: 100%;
+    padding: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    background-color: white;
+    color: #003da7;
+    font-size: large;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.meuSegundoBotao{
+background-color: #003da7;
+color: white;
+border: 0;
+border-radius: 10px;
+}
+div{
+    background-color:#d9e9fd  ;
+   border-radius: 10px; 
+    
+}
+.divGrande{
+    display: flex;
+    height: 300px;
+}
+.divLado{
+    margin-left: 50px;
+    float: right;
+    width: 500px;
+    
+    padding: 5px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.bloco{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    height: 45px;
+    font-weight: bold;
+    
+    justify-content: space-between;
+    margin: 10px;
+   align-items: center;
+   padding-left: 5px;
+}
+#itensLado{
+    display: flex;
+    justify-content: space-between;
+}
+#itensLado p{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.bloco button{
+width: 100px;
+height: 45px;
+border-radius: 15px;
+border: 0;
+}
+.divLado hr{
+    border-top: 3px solid white;
+}
+
+#divlado2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagensRed{
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tamImagem{
+    background-color: white;
+    margin: 10px;
+}
+
+#flex{
+   display: flex; 
+   justify-content: space-between;
+}
+
+ #flex div{
+    float: right;
+    display: flex;
+} 

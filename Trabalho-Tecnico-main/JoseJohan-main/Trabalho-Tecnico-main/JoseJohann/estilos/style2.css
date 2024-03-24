@@ -45,9 +45,10 @@ tr, td{
     
 }
 
-#blue{
-    width: 348px;
+.blue{
     margin: 0;
+    margin-left: 10px;
+    
     border: 2px solid 
     #0f82bd;
 }
@@ -68,16 +69,16 @@ tr, td{
 #buttons2 button {
     background-color: rgb(206, 206, 206);
 }
-#grosso{
+.grosso{
     border: 5px solid rgb(206, 206, 206);
-    float: right;
+    
     
     
 }
 #sim{
     padding: 0;
     display: flex;
-    align-items: center;
+   
     
 }
 
@@ -95,4 +96,31 @@ tr, td{
 
 .table-head{
     width: 370px;
+}
+
+#tabela2{
+    margin-left: 10px;
+}
+
+
+#flex{
+    display: flex;
+    justify-content: space-between;
+}
+#sam{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+.meio{
+    width: 50%;
+    margin-top: 20px;
+}
+.tudo{
+    width: 60%;
+    height: 30px;
+}
+#flex h1{
+    margin-bottom: 0;
+    margin-left: 10px;
 }
